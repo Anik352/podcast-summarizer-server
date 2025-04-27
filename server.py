@@ -7,8 +7,8 @@ import openai
 app = Flask(__name__)
 
 # Insert your API keys here
-ASSEMBLYAI_API_KEY = 7a22e0c8cbb746f485613ae64f1dbdf9
-OPENAI_API_KEY = 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
+ASSEMBLYAI_API_KEY = "7a22e0c8cbb746f485613ae64f1dbdf9"
+OPENAI_API_KEY = "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"
 
 openai.api_key = OPENAI_API_KEY
 
